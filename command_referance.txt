@@ -1,0 +1,3 @@
+migration commands
+php artisan make:migration add_client_id_columns_to_qualifications_table --table=qualifications
+php artisan migrate

@@ -54,9 +54,9 @@ return [
     |
     */
 
-    'currency' => env('LARAVEL_CRM_CURRENCY', 'USD'),
+    'currency' => env('LARAVEL_CRM_CURRENCY', 'INR'),
 
-    'country' => env('LARAVEL_CRM_COUNTRY', 'United States'),
+    'country' => env('LARAVEL_CRM_COUNTRY', 'INDIA'),
 
     'language' => env('LARAVEL_CRM_LANGUAGE', 'english'),
 
@@ -171,12 +171,13 @@ return [
     'modules' => [
         'leads',
         'deals',
-        'quotes',
-        'orders',
-        'invoices',
-        'deliveries',
-        'purchase-orders',
-        'teams',
+        'qualification',
+        // 'quotes',
+        // 'orders',
+        // 'invoices',
+        // 'deliveries',
+        // 'purchase-orders',
+        // 'teams',
     ],
 
     /*
